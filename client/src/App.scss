@@ -1,0 +1,133 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+.App {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.container-login {
+    display: flex;
+    justify-content: center;
+    // flex-direction: column;
+    width: 100%;
+}
+
+.container-registro {
+    display: flex;
+    justify-content: center;
+    // flex-direction: column;
+    width: 100%;
+}
+
+.Header {
+    text-align: center;
+}
+
+.plan-form-container{
+    display: flex;
+    justify-content: center;
+}
+
+
+.pirates-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 1200px;
+    /* border-radius: 5px; */
+
+    .header_pirates{
+        width: 90%;
+        background-color: brown;
+        display: inline-block;
+
+        .titulo_header {
+            display: inline-block;
+            color: white;
+                }
+
+        .boton_header{
+            display: inline-block;
+        }
+    }
+
+    .h1{
+        background-color:white; 
+    }
+    .main{
+       width: 90%;
+       background-color:orange;
+
+    }
+    .card {
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+        border-radius: 5px;
+        // width: 45%;
+        margin-bottom: 9px;
+        padding: 9px;
+        font-size: 20px;
+    }
+
+    .card-5 {
+        box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+        justify-content: center;
+    }
+      
+
+    .button {
+        width: 250px;
+        margin: 0 auto;
+        font-size: 20px;
+    }
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+    }
+
+.pirate-form-container {
+    width:100%;
+    background-color:orange;
+    width: 600px;
+    display:flex;
+    background-color:orange;
+
+    
+
+    .left-input{
+       display:inline-block;
+
+    }
+
+    .right-input{
+        display:block;
+
+    }
+}
+
+.header-input{
+    width: 100%;
+    height: 50px;
+    background-color:brown;
+    color: white;
+    display:block;
+
+}
+
+.detail-container{
+    width:1200px;
+
+    .header-detail{
+        height: 50px;
+        background-color:brown;
+        color: white;
+    }
+
+    .pirate-detail{
+        background-color:orange;
+    }
+}
+                   
+                    

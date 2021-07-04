@@ -1,0 +1,36 @@
+- Agregar Pirata
+- ver pirata
+- Borrar Pirata
+- Mostrar pirata
+- ordenar registros por nombre de pirata
+
+- Cambiar estado a caracteristicas del pirata:
+     Peg Leg, Eye Patch Hook Hand
+     Estados: True / False
+
+- Validaciones en el Backend:
+    - Todos los campos requeridos
+    - Default Peg Leg, Eye Patch, Hook Hand ---> true
+    - Solo 1 capitan
+
+- Despues de ingresar el login, irse al dashboard
+- Aplicar tarjetas a cada registro del Dashboard
+
+
+BDatos
+	- name,
+        - image url,
+	- crew position,
+        - peg leg,
+        - eye patch,
+        - hook hand
+	- numero de tesoros
+        - Pirate Catch Phrase
+
+- Validaciones del Login:
+   	- firstname
+	- lastname
+	- email
+	- password
+
+  en user.model.js y en el formulario de login
